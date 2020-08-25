@@ -7,12 +7,12 @@ using namespace std;
 
 void transform(unsigned long long int num) {
 	string n1[21] = {"zero", "one", "two", "three", "four",
-									 "five", "six", "seven", "eight", "nine",
-									 "ten", "eleven", "twelve", "thirteen",
-									 "fourteen", "fifteen", "sixteen", "seventeen",
-									 "eighteen", "nineteen"};
+			 "five", "six", "seven", "eight", "nine",
+			 "ten", "eleven", "twelve", "thirteen",
+			 "fourteen", "fifteen", "sixteen", "seventeen",
+			 "eighteen", "nineteen"};
 	string n2[11] = {"", "ten", "twenty", "thirty", "forty", "fifty",
-									 "sixty", "seventy", "eighty", "ninety"};
+			 "sixty", "seventy", "eighty", "ninety"};
 	if (num >= 1000000000000000000) {
 		transform(num / 1000000000000000000);
 		cout << " quintillion";
